@@ -3,11 +3,14 @@
   <head>
     <title>The Arsenal</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="colors.js"></script>
   </head>
   <body>
     <h1><a href="index.html">Gunners</a></h1>
-    <input type="button" value="night" onclick="document.querySelector('body').style.backgroundColor='black'; document.querySelector('body').style.color='white';">
-    <input type="button" value="day" onclick="document.querySelector('body').style.backgroundColor='white'; document.querySelector('body').style.color='black';">
+    <input id="night_day" type="button" value="dark" onclick="
+    darklighthandler(this);
+     ">
     <div id="grid">
       <ol>
         <li><a href="1.html">INTRODUCTION</a></li>
@@ -16,7 +19,7 @@
         <li><a href="4.html">THE INVINCIBLES</a></li>
       </ol>
       <div id="article">
-        <img src="https://images.unsplash.com/photo-1563580853176-38535245e8b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60" width="550">
+        <img src="https://i.pinimg.com/originals/92/61/19/926119c5ea63913dd3aeaaf66ca456e7.jpg" width="100%">
         <h2>History of The Club</h2>
         <h3><p style="margin~top:50px;">1886~1919: Changing names</h3>
         <p>In October 1886, Scotsman David Danskin and his fellow 15 munitions workers in Woolwich, now South East London, formed Arsenal as Dial Square, with each member contributing sixpence and Danskin adding another three shillings to help form the club. Named after the heart of the Royal Arsenal complex, they took the name of the whole complex a month later. Royal Arsenal F.C.'s first home was Plumstead Common, though they spent most of their time in South East London playing on the other side of Plumstead, at the Manor Ground. Royal Arsenal first trophies they won was the Kent Senior Cup and London Charity Cup in 1889~90 and the London Senior Cup in 1890~91 these were the only football association trophies Arsenal won during their time in South East London. In 1891, Royal Arsenal became the first London club to turn professional.</p>

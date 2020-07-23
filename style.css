@@ -1,5 +1,6 @@
   a {
     text-decoration: none;
+    color:red;
   }
   h1 {
     font-size:55px;
@@ -21,6 +22,7 @@
   }
   #article {
     padding-top:25px;
+    max-width: 600px;
   }
   @media(max-width:800px){
     #grid {

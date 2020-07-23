@@ -3,11 +3,14 @@
   <head>
     <title>The Arsenal</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="colors.js"></script>
   </head>
   <body>
     <h1><a href="index.html">Gunners</a></h1>
-    <input type="button" value="night" onclick="document.querySelector('body').style.backgroundColor='black'; document.querySelector('body').style.color='white';">
-    <input type="button" value="day" onclick="document.querySelector('body').style.backgroundColor='white'; document.querySelector('body').style.color='black';">
+    <input id="night_day" type="button" value="dark" onclick="
+    darklighthandler(this);
+     ">
     <div id="grid">
       <ol>
         <li><a href="1.html">INTRODUCTION</a></li>
@@ -16,7 +19,7 @@
         <li><a href="4.html">THE INVINCIBLES</a></li>
       </ol>
       <div id="article">
-        <img src="https://images.unsplash.com/photo-1563580853176-38535245e8b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1200&q=60" width="550">
+        <img src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/ordy6a8hogru0zxfhwfh/Arsenal%20FC%20Emirates%20Stadium%20Tour.jpg" width="100%">
         <h2>Emirates Stadium</h2>
         <h3 style="font-style:italic;">Location: Holloway London, N5 England<br>
         Capacity: 60,704</h3>
